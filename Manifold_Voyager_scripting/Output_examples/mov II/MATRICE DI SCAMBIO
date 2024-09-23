@@ -1,0 +1,30 @@
+MATRICE DI SCAMBIO
+
+COMB1:
+E == G
+D == C 
+Bb == A 
+A == F  
+F ==  E 
+D == C
+G == Bb
+
+
+COMB2:
+G == E 
+C == F# 
+A == Bb   
+F == B 
+E == Eb
+C == F#
+Bb== C# 
+
+
+COMB6 (da COMB2):
+E  == G 
+F# == D 
+Bb == F 
+B  == A 
+Eb == Bb 
+F# == D 
+C# == E 

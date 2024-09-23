@@ -1,0 +1,32 @@
+
+
+GRITO MACHINE OUTPUT CICLO RIRO, MOV II
+
+Informazioni:
+- 22 steps
+- 48 battute di interpolazione totali
+
+passi per l'offset (in valori da 0 a 11 quarti) uno per ogni elemento in uscita da GRIO (in questo caso sono 7):
+[0, 3, 4, 5, 7, 9, 10, 2]
+
+Lista con i valori, da 1 a 12 quarti, relativi alla posizione dalla quale viene ripercorso il pattern nell'interpolazione:
+[4, 6, 8, 8, 11, 6, 6, 6, 10, 6, 5, 5, 8, 1, 3, 11, 5, 5, 9, 12, 5, 4]
+
+voci attive in ciascuna battuta di ciascuno dei 7 passaggi di interpolazione:
+
+[1, 1, 0] [1, 0, 1] [1, 1, 0] [1, 1, 0] [0, 1, 1] [1, 0, 1] [1, 0, 1] {4,6,8} offset = +3
+
+[1, 0, 1] [1, 0, 1] [1, 0, 1] [1, 1, 1] [1, 1, 1] [1, 1, 0] [1, 1, 1] {8,11,6,6} offset = +4
+
+[0, 1, 1] [0, 1, 1] [1, 1, 1] [1, 1, 1] [1, 1, 1] [1, 1, 0]  {6,10,6} offset = +5
+
+[1, 1, 1] [1, 1, 0] [1, 1, 1] [1, 1, 1] [1, 0, 1] [1, 0, 1] [1, 1, 1] [1, 0, 1] [1, 0, 1] [1, 0, 1] [1, 0, 1] [0, 1, 1] {5,5,8,1,3} offset = +7
+
+[0, 1, 1] [1, 0, 1] [1, 1, 1] [1, 1, 1] [1, 1, 1] [1, 0, 1] [1, 1, 1] [1, 0, 1] [1, 1, 1] [1, 0, 1] {11,5,5,9} offset = +9
+
+[1, 1, 1] [1, 1, 0] {12} offset = +10
+
+[1, 0, 1] [1, 1, 0] [1, 1, 0] [0, 1, 1] {5,4} offset = +2
+
+
+

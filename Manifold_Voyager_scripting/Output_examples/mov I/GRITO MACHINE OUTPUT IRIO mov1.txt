@@ -1,0 +1,36 @@
+stampa del terminale python:
+[0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[1, 2, 3, 2, 2, 1, 2]
+7 steps
+13graduation bars
+lenght graduation_lenght_list: 7
+lenght voicemute_coll: 13
+[0, 1, 3, 4, 5, 7]
+[6, 8, 5, 6, 8, 4, 2]
+   
+
+GRITO MACHINE OUTPUT CICLO IRIO, MOVIMENTO 1
+
+Informazioni:
+- 7 steps
+- 13 battute di interpolazione totali
+
+passi per l'offset (in valori da 0 a 8 quarti) uno per ogni elemento in uscita da GRIO (in questo caso sono 5):
+[0, 1, 3, 4, 5, 7]
+
+Lista con i valori, da 1 a 9 quarti, relativi alla posizione dalla quale viene ripercorso il pattern nell'interpolazione:
+[6, 8, 5, 6, 8, 4, 2]
+
+voci attive in ciascuna battuta di ciascuno dei 5 passaggi di interpolazione:
+[0, 1, 1] [1, 0, 1] [1, 1, 0] {6,8} offset = +1
+
+[0, 1, 1] [1, 1, 1] [1, 1, 0] [1, 1, 0] [0, 1, 1] {5,6} offset = +3
+
+[1, 1, 1] [0, 1, 1] [1, 1, 0] {8,4}  offset = +4
+
+[1, 1, 0] [1, 1, 0] {2} offset = +5
+
+[---] offset = +7
+
+
+
