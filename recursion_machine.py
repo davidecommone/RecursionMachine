@@ -438,7 +438,7 @@ def grito(bars_total_duration, voicesnumber, grio_out_istance, field_main_key, f
 
     data = [int(item * renorm_max) for item in data]
     
-    # Passi per l'offset (in valori da 0 a 8 quarti) uno per ogni elemento in uscita da GRIO (in questo caso sono 5):
+    # Passi per l'offset (in valori da 0 a 8 quarti) uno per ogni elemento in uscita da GRIO:
     offsetvalue_list = set()  
     i = 0
     while len(offsetvalue_list) < max_items+1:  
